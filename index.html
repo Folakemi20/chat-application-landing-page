@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mx-auto lg:p-0">
+      <!-- NAVBAR -->
+      <nav
+        class="flex justify-between items-center py-4 max-w-[1200px] px-4 mx-auto"
+      >
+        <div class="">
+          <h1
+            class="text-orange-500 lg:text-[35px] text-[25px] font-bold font-lato"
+          >
+            Apex
+          </h1>
+        </div>
+        <!-- links -->
+        <div class="hidden lg:flex gap-6">
+          <p class="text-[18px] font-semibold hover:text-orange-500">
+            <a href="#">Demos</a>
+          </p>
+          <p class="text-[18px] font-semibold hover:text-orange-500">
+            <a href="#">About</a>
+          </p>
+          <p class="text-[18px] font-semibold hover:text-orange-500">
+            <a href="#">Blog</a>
+          </p>
+          <p class="text-[18px] font-semibold hover:text-orange-500">
+            <a href="#">Pages</a>
+          </p>
+          <p class="text-[18px] font-semibold hover:text-orange-500">
+            <a href="#">Contact</a>
+          </p>
+        </div>
+
+        <div class="flex lg:gap-10 gap-5 items-center">
+          <h1 class="lg:text-[18px] text-[13px] font-semibold">
+            <a href="#">Login</a>
+          </h1>
+          <p
+            class="bg-orange-500 lg:px-6 lg:py-3 px-3 py-2 lg:text-[15px] text-[13px] text-white font-semibold rounded-[10px] cursor-pointer"
+          >
+            Get Started Free
+          </p>
+        </div>
+      </nav>
+      <!-- BODY -->
+      <section
+        class="flex flex-col lg:flex-row lg:items-center lg:justify-between py-10 px-4 lg:px-0 max-w-[1200px] mx-auto"
+      >
+        <!-- LEFT CONTENT -->
+        <div class="w-full lg:w-[45%] space-y-6">
+          <div>
+            <h1 class="lg:text-[40px] text-[30px] font-semibold leading-snug">
+              Start chatting with customers, anytime, anywhere with Apex.
+            </h1>
+          </div>
+          <div>
+            <p class="text-gray-600">
+              Great software that allows you to chat from any place at any time
+              without any interruption.
+            </p>
+          </div>
+          <div>
+            <button
+              class="bg-orange-500 hover:bg-orange-600 transition-colors cursor-pointer lg:px-7 lg:py-2 px-4 py-3 text-white rounded-[5px]"
+            >
+              Start Chatting Now
+            </button>
+          </div>
+
+          <!-- RATINGS AND STARS -->
+
+          <div class="flex gap-3">
+            <div class="flex relative">
+              <img
+                class="lg:w-18 lg:h-18 w-14 h-14 rounded-full z-30 border-3 border-white"
+                src="./image/image2.jpg"
+                alt=""
+              />
+              <img
+                class="lg:w-18 lg:h-18 w-14 h-14 rounded-full -ml-6 left-4 z-20 border-3 border-white"
+                src="./image/image6.jpg"
+                alt=""
+              />
+              <img
+                class="lg:w-18 lg:h-18 w-14 h-14 rounded-full -ml-6 left-8 z-10 border-3 border-white"
+                src="./image/image3.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <b class="lg:text-[25px] text-[22px]">2,291</b>
+              <p class="lg:text-[20px] text-[17px] text-gray-500">
+                Happy Customers
+              </p>
+            </div>
+            <div class="lg:block hidden">
+              <img class="lg:h-12 h-8" src="./image/line.png" alt="" />
+            </div>
+            <div class="lg:block hidden">
+              <b class="lg:text-[25px] text-[22px]">4.8/5</b>
+              <div class="flex items-center gap-2 -mt-5">
+                <img class="mt-0" src="./image/star (1).png" alt="" />
+                <p class="lg:text-[20px] text-[17px] text-gray-500">Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:hidden block -mt-8">
+            <img
+              class="w-10 m-2"
+              src="./image/minus-horizontal-straight-line.png"
+              alt=""
+            />
+          </div>
+          <div class="lg:hidden block -mt-5">
+            <b class="lg:text-[25px] text-[20px]">4.8/5</b>
+            <div class="flex items-center gap-2 -mt-5">
+              <img class="mt-0" src="./image/star (1).png" alt="" />
+              <p class="text-[20px] text-gray-500">Rating</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT IMAGE & TESTIMONIAL CARDS -->
+        <div
+          class="relative w-full lg:w-[55%] mt-10 lg:mt-0 flex justify-center items-center"
+        >
+          <!-- Background Image -->
+          <img class="w-[65%] z-0" src="./image/image5.png" alt="" />
+
+          <!-- Testimonial Card 1 -->
+          <div
+            class="absolute top-92 left-0 lg:left-20 z-10 w-[65%] lg:w-[400px] bg-white border border-gray-50 rounded-[10px] p-4 shadow-md flex items-start gap-4"
+          >
+            <img
+              class="lg:w-12 lg:h-12 w-18 h-12 rounded-full object-cover"
+              src="./image/ronald.jpg"
+              alt="Ronald Richards profile photo"
+            />
+            <div>
+              <b>Ronald Richards</b>
+              <p class="text-gray-500 text-sm mt-1">
+                One of the best chatting apps I have ever used.
+              </p>
+            </div>
+          </div>
+
+          <!-- Testimonial Card 2 -->
+          <div
+            class="absolute top-48 right-4 lg:right-0 z-10 w-[65%] lg:w-[400px] bg-white border border-gray-50 rounded-[10px] p-4 shadow-md flex items-start gap-4"
+          >
+            <img
+              class="lg:w-20 lg:h-12 w-25 h-10 rounded-full object-cover"
+              src="./image/image1.jpg"
+              alt="Jenny Wilson profile photo"
+            />
+            <div>
+              <b>Jenny Wilson</b>
+              <p class="text-gray-500 text-sm mt-1">
+                I commented on Figma. I want to add some fancy icons. Do you
+                have any icon set?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION TWO -->
+      <section class="mt-15">
+        <h1 class="lg:text-[30px] font-semibold text-center mt-10">
+          Features for a better experience
+        </h1>
+        <div
+          class="flex lg:flex-row flex-col mt-10 items-center justify-between m-10 gap-6"
+        >
+          <div class="flex lg:flex-row flex-col gap-4">
+            <div
+              class="bg-orange-200 lg:w-19 lg:h-12 w-12 h-12 rounded-full flex justify-center items-center text-white text-2xl lg:m-0 mx-auto"
+            >
+              <img class="w-6 h-6" src="./image/video-camera.png" alt="" />
+            </div>
+            <div class="">
+              <b class="">Video messaging</b>
+              <p class="lg:mt-5 mt-2">
+                This software is very easy for you to manage. You can use it as
+                you wish.
+              </p>
+            </div>
+          </div>
+          <div class="flex lg:flex-row flex-col gap-4">
+            <div
+              class="bg-orange-100 lg:w-19 lg:h-12 w-12 h-12 rounded-full flex justify-center items-center text-white text-2xl lg:m-0 mx-auto"
+            >
+              <img class="w-6 h-6" src="./image/lock.png" alt="" />
+            </div>
+            <div class="">
+              <b class="">Keep safe and private</b>
+              <p class="lg:mt-5 mt-2">
+                This software is very easy for you to manage. You can use it as
+                you wish.
+              </p>
+            </div>
+          </div>
+          <div class="flex lg:flex-row flex-col gap-4">
+            <div
+              class="bg-green-200 lg:w-19 lg:h-12 w-12 h-12 rounded-full flex justify-center items-center text-white text-2xl lg:m-0 mx-auto"
+            >
+              <img class="w-6 h-6" src="./image/timer.png" alt="" />
+            </div>
+            <div class="">
+              <b>Save your time</b>
+              <p class="lg:mt-5 mt-2">
+                This software is very easy for you to manage. You can use it as
+                you wish.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION THREE -->
+
+      <section class="flex lg:flex-row flex-col mt-15 m-10">
+        <div>
+          <img class="lg:w-[70%]" src="./image/racheal.jpg" alt="" />
+        </div>
+        <div class="mr-25">
+          <b class="lg:text-[34px] text-[25px]"
+            >Meet your customers, with live video chat</b
+          >
+          <p class="text-[20px] lg:mt-8 mt-4">
+            Proin faucibus nibh et sagittis a. Lacinia purus ac amet
+            pellentesque aliquam enim.
+          </p>
+          <p class="text-gray-500 lg:mt-8 mt-4">
+            Get paychecks up to two days early. Get a $20 bonus when you receive
+            qualifying direct deposits
+          </p>
+        </div>
+      </section>
+
+      <!-- SECTION FOUR -->
+      <section class="flex lg:flex-row flex-col mt-10 m-10 gap-10">
+        <div class="mt-20">
+          <b class="lg:text-[34px] text-[25px]">Start selling directly</b>
+          <b class="lg:text-[34px] text-[25px]">inside conversations</b>
+          <p class="mt-8">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered all injected humour or randomised words
+            which don't look even slightly believable.
+          </p>
+          <div>
+            <button
+              class="bg-orange-500 hover:bg-orange-600 transition-colors cursor-pointer lg:px-7 lg:py-2 px-4 py-3 text-white rounded-[5px] mt-10"
+            >
+              Start Chatting Now
+            </button>
+          </div>
+        </div>
+        <div
+          class="bg-white lg:w-[70%] lg:h-[500px] w-full h-[100%] rounded-[10px] shadow-[0px_1px_8px_1px_rgba(0,0,0,0.2)] lg:m-15 m-0"
+        >
+        <div class="flex gap-4 m-10">
+            <div>
+                <img class="w-14 h-14 rounded-full" src="./image/michelle.jpg" alt="">
+            </div>
+            <div class="bg-gray-100 lg:w-[80%] lg:h-[80px] rounded-[10px]">
+                <p class="p-4 font-semibold">Hello! My name is Alex,</p>
+                <p class="p-4 -mt-7 font-semibold">how can i help you?</p>
+            </div>
+
+        </div>
+        <div class="flex gap-4 m-10">
+            <div class="bg-orange-500 lg:w-[80%] lg:h-[110px] rounded-[10px]">
+                <p class="p-4 text-white">Hi! Julia here, i have a few</p>
+                <p class="p-4 -mt-6 text-white">questions i would love to</p>
+                <p class="p-4 -mt-6 text-white">ask you, if that is ok.</p>
+            </div>
+            <div>
+                <img class="w-14 h-14 rounded-full" src="./image/elizabeth.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="flex gap-4 m-10">
+            <div>
+                <img class="w-14 h-14 rounded-full" src="./image/michelle.jpg" alt="">
+            </div>
+            <div  class="bg-gray-100 lg:w-[80%] lg:h-[60px] rounded-[10px]">
+                <p class="p-4 font-semibold">Nice to meet you, Julia!</p>
+            </div>
+
+        </div>
+        <div class="bg-gray-100 w-15 h-8 ml-28 rounded-[5px]">
+           <div class="flex p-3 gap-1 -mt-5">
+            <p class="bg-gray-400 w-2 h-2 rounded-full animate-bounce"></p>
+            <p class="bg-gray-400 w-2 h-2 rounded-full animate-bounce"></p>
+            <p class="bg-gray-400 w-2 h-2 rounded-full animate-bounce"></p>
+           </div>
+        </div>
+        <div class="bg-white lg:w-[88%] h-[50px] border border-gray-400 rounded-[5px] m-6 p-3 pb-5">
+            <div class="flex items-center justify-between">
+                <div>
+                    <p class="text-gray-500">Write your reply....</p>
+                </div>
+                <div class="bg-gray-300 px-5 py-2 -mt-2 rounded-[4px]">
+                    <img class="" src="./image/arrow_forward_ios_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+        
+    
+    
+    
+    </div>
+      </section>
+    </div>
+  </body>
+</html>
