@@ -209,6 +209,9 @@
   .top-6 {
     top: calc(var(--spacing) * 6);
   }
+  .top-8 {
+    top: calc(var(--spacing) * 8);
+  }
   .top-9 {
     top: calc(var(--spacing) * 9);
   }
@@ -251,8 +254,17 @@
   .top-850 {
     top: calc(var(--spacing) * 850);
   }
+  .top-860 {
+    top: calc(var(--spacing) * 860);
+  }
   .top-880 {
     top: calc(var(--spacing) * 880);
+  }
+  .top-898 {
+    top: calc(var(--spacing) * 898);
+  }
+  .top-899 {
+    top: calc(var(--spacing) * 899);
   }
   .top-900 {
     top: calc(var(--spacing) * 900);
@@ -969,6 +981,9 @@
   }
   .text-\[22px\] {
     font-size: 22px;
+  }
+  .text-\[23px\] {
+    font-size: 23px;
   }
   .text-\[25px\] {
     font-size: 25px;
