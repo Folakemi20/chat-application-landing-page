@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/output.css" />
-    <title>Document</title>
+    <title>Chat App Landing Page</title>
   </head>
   <body>
     <div class="container mx-auto lg:p-0">
@@ -132,11 +132,11 @@
           class="relative w-full lg:w-[55%] mt-10 lg:mt-0 flex justify-center items-center"
         >
           <!-- Background Image -->
-          <img class="w-[65%] z-0" src="./image/image5.png" alt="" />
+          <img class="lg:w-[65%] w-full z-0" src="./image/image5.png" alt="" />
 
           <!-- Testimonial Card 1 -->
           <div
-            class="absolute top-92 left-0 lg:left-20 z-10 w-[65%] lg:w-[400px] bg-white border border-gray-50 rounded-[10px] p-4 shadow-md flex items-start gap-4"
+            class="absolute top-92 left-0 lg:left-20 z-10 w-[65%] lg:w-[200px] bg-white border border-gray-50 rounded-[10px] p-4 shadow-md flex items-start gap-4"
           >
             <img
               class="lg:w-12 lg:h-12 w-18 h-12 rounded-full object-cover"
@@ -144,8 +144,8 @@
               alt="Ronald Richards profile photo"
             />
             <div>
-              <b>Ronald Richards</b>
-              <p class="text-gray-500 text-sm mt-1">
+              <b class="lg:text-[15px] text-[10px]">Ronald Richards</b>
+              <p class="text-gray-500 lg:text-[15px] text-[10px] mt-1">
                 One of the best chatting apps I have ever used.
               </p>
             </div>
@@ -153,7 +153,7 @@
 
           <!-- Testimonial Card 2 -->
           <div
-            class="absolute top-48 right-4 lg:right-0 z-10 w-[65%] lg:w-[400px] bg-white border border-gray-50 rounded-[10px] p-4 shadow-md flex items-start gap-4"
+            class="absolute top-48 right-4 lg:right-0 z-10 w-[65%] lg:w-[200px] bg-white border border-gray-50 rounded-[10px] p-4 shadow-md flex items-start gap-4"
           >
             <img
               class="lg:w-20 lg:h-12 w-25 h-10 rounded-full object-cover"
@@ -161,8 +161,8 @@
               alt="Jenny Wilson profile photo"
             />
             <div>
-              <b>Jenny Wilson</b>
-              <p class="text-gray-500 text-sm mt-1">
+              <b class="lg:text-[15px] text-[10px]">Jenny Wilson</b>
+              <p class="text-gray-500 lg:text-[15px] text-[10px] mt-1">
                 I commented on Figma. I want to add some fancy icons. Do you
                 have any icon set?
               </p>
@@ -172,7 +172,7 @@
       </section>
 
       <!-- SECTION TWO -->
-      <section class="mt-15">
+      <section class="mt-10">
         <h1 class="lg:text-[30px] font-semibold text-center mt-10">
           Features for a better experience
         </h1>
@@ -231,9 +231,9 @@
           <img class="lg:w-[70%]" src="./image/racheal.jpg" alt="" />
         </div>
         <div class="mr-25">
-          <b class="lg:text-[34px] text-[25px]"
-            >Meet your customers, with live video chat</b
-          >
+          <p class="lg:text-[34px] text-[25px] font-semibold">
+            Meet your customers, with live video chat
+          </p>
           <p class="text-[20px] lg:mt-8 mt-4">
             Proin faucibus nibh et sagittis a. Lacinia purus ac amet
             pellentesque aliquam enim.
@@ -264,62 +264,306 @@
           </div>
         </div>
         <div
-          class="bg-white lg:w-[70%] lg:h-[500px] w-full h-[100%] rounded-[10px] shadow-[0px_1px_8px_1px_rgba(0,0,0,0.2)] lg:m-15 m-0"
+          class="bg-white lg:w-[70%] lg:h-[500px] w-[70%] h-[100%] relative flex justify-center items-center rounded-[10px] shadow-[0px_1px_8px_1px_rgba(0,0,0,0.2)] lg:m-15 mx-auto"
         >
-        <div class="flex gap-4 m-10">
-            <div>
-                <img class="w-14 h-14 rounded-full" src="./image/michelle.jpg" alt="">
+          <div class="z-0">
+            <div class="flex gap-4 lg:m-5 m-2">
+              <div>
+                <img
+                  class="lg:w-14 lg:h-14 w-10 h-10 rounded-full"
+                  src="./image/michelle.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="bg-gray-100 lg:w-[80%] lg:h-[70px] rounded-[10px]">
+                <p class="p-4 lg:text-[15px] text-[10px] font-semibold">
+                  Hello! My name is Alex,
+                </p>
+                <p class="p-4 lg:text-[15px] text-[10px] -mt-7 font-semibold">
+                  how can i help you?
+                </p>
+              </div>
             </div>
-            <div class="bg-gray-100 lg:w-[80%] lg:h-[80px] rounded-[10px]">
-                <p class="p-4 font-semibold">Hello! My name is Alex,</p>
-                <p class="p-4 -mt-7 font-semibold">how can i help you?</p>
+            <div class="flex gap-4 lg:m-10 m-2">
+              <div class="bg-orange-500 lg:w-[80%] lg:h-[110px] rounded-[10px]">
+                <p class="p-4 lg:text-[15px] text-[10px] text-white">
+                  Hi! Julia here, i have a few
+                </p>
+                <p class="p-4 lg:text-[15px] text-[10px] -mt-6 text-white">
+                  questions i would love to
+                </p>
+                <p class="p-4 lg:text-[15px] text-[10px] -mt-6 text-white">
+                  ask you, if that is ok.
+                </p>
+              </div>
+              <div>
+                <img
+                  class="lg:w-14 lg:h-14 w-10 h-10 rounded-full"
+                  src="./image/elizabeth.jpg"
+                  alt=""
+                />
+              </div>
             </div>
-
-        </div>
-        <div class="flex gap-4 m-10">
-            <div class="bg-orange-500 lg:w-[80%] lg:h-[110px] rounded-[10px]">
-                <p class="p-4 text-white">Hi! Julia here, i have a few</p>
-                <p class="p-4 -mt-6 text-white">questions i would love to</p>
-                <p class="p-4 -mt-6 text-white">ask you, if that is ok.</p>
+            <div class="flex gap-4 lg:m-10 m-2">
+              <div>
+                <img
+                  class="lg:w-14 lg:h-14 w-10 h-10 rounded-full"
+                  src="./image/michelle.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="bg-gray-100 lg:w-[80%] lg:h-[60px] rounded-[10px]">
+                <p class="p-4 lg:text-[15px] text-[10px] font-semibold">
+                  Nice to meet you, Julia!
+                </p>
+              </div>
             </div>
-            <div>
-                <img class="w-14 h-14 rounded-full" src="./image/elizabeth.jpg" alt="">
+            <div class="bg-gray-100 w-15 h-8 lg:ml-28 ml-15 rounded-[5px]">
+              <div class="flex p-3 gap-1 lg:-mt-5">
+                <p class="bg-gray-400 w-2 h-2 rounded-full animate-bounce"></p>
+                <p class="bg-gray-400 w-2 h-2 rounded-full animate-bounce"></p>
+                <p class="bg-gray-400 w-2 h-2 rounded-full animate-bounce"></p>
+              </div>
             </div>
-
-        </div>
-        <div class="flex gap-4 m-10">
-            <div>
-                <img class="w-14 h-14 rounded-full" src="./image/michelle.jpg" alt="">
-            </div>
-            <div  class="bg-gray-100 lg:w-[80%] lg:h-[60px] rounded-[10px]">
-                <p class="p-4 font-semibold">Nice to meet you, Julia!</p>
-            </div>
-
-        </div>
-        <div class="bg-gray-100 w-15 h-8 ml-28 rounded-[5px]">
-           <div class="flex p-3 gap-1 -mt-5">
-            <p class="bg-gray-400 w-2 h-2 rounded-full animate-bounce"></p>
-            <p class="bg-gray-400 w-2 h-2 rounded-full animate-bounce"></p>
-            <p class="bg-gray-400 w-2 h-2 rounded-full animate-bounce"></p>
-           </div>
-        </div>
-        <div class="bg-white lg:w-[88%] h-[50px] border border-gray-400 rounded-[5px] m-6 p-3 pb-5">
-            <div class="flex items-center justify-between">
+            <div
+              class="bg-white lg:w-[88%] w-[80%] h-[50px] border border-gray-400 rounded-[5px] m-6 p-3 pb-5"
+            >
+              <div class="flex items-center justify-between">
                 <div>
-                    <p class="text-gray-500">Write your reply....</p>
+                  <p class="text-gray-500 lg:text-[15px] text-[10px]">
+                    Write your reply....
+                  </p>
                 </div>
                 <div class="bg-gray-300 px-5 py-2 -mt-2 rounded-[4px]">
-                    <img class="" src="./image/arrow_forward_ios_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                  <img
+                    class="w-5 h-5"
+                    src="./image/greater-than-symbol (1).png"
+                    alt=""
+                  />
                 </div>
-
+              </div>
             </div>
+          </div>
+          <div
+            class="absolute lg:top-94 -left-20 z-10 w-[60%] lg:w-[200px] lg:h-[200px] h-[120px] bg-green-500 border border-gray-50 rounded-[10px] p-4 shadow-md flex items-start gap-4"
+          >
+            <div class="mx-auto">
+              <h3 class="lg:text-[15px] text-[8px] text-white">
+                Will we have daily calls for every projects
+              </h3>
+              <div class="lg:mt-4">
+                <div class="flex justify-between">
+                  <p class="text-white">Yes</p>
+                  <p class="text-white">65%</p>
+                </div>
+                <div class="bg-green-200 w-full h-2 rounded-full">
+                  <p class="bg-white w-[60%] h-2 rounded-full"></p>
+                </div>
+              </div>
 
+              <div class="lg:mt-4">
+                <div class="flex justify-between">
+                  <p class="text-white">No</p>
+                  <p class="text-white">35%</p>
+                </div>
+                <div class="bg-green-200 w-full h-2 rounded-full">
+                  <p class="bg-white w-[35%] h-2 rounded-full"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute top-40 lg:-right-25 -right-13 z-10 w-[60%] lg:w-[170px] lg:h-[220px] h-[170px] bg-white border border-gray-50 rounded-[10px] p-4 shadow-md flex items-start gap-4"
+          >
+            <div class="lg:mx-auto m-0">
+              <img
+                class="lg:w-14 lg:h-14 w-10 h-10 rounded-full mx-auto"
+                src="./image/michelle.jpg"
+                alt=""
+              />
+              <p class="lg:text-[20px] text-[14px] text-center">Alex Smith</p>
+              <p class="lg:text-[13px] text-[9px] text-gray-500 text-center">
+                Project Manager
+              </p>
+              <div class="flex lg:gap-8 gap-5 mt-7">
+                <div
+                  class="bg-green-500 lg:w-14 lg:h-14 w-10 h-10 rounded-full lg:border-6 border-3 border-green-200 flex justify-center items-center"
+                >
+                  <img class="lg:w-5 w-5" src="./image/telephone.png" alt="" />
+                </div>
+                <div
+                  class="bg-red-500 lg:w-14 lg:h-14 w-10 h-10 rounded-full lg:border-6 border-4 border-red-300 flex justify-center items-center"
+                >
+                  <img class="lg:w-6 w-5" src="./image/close.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION FIVE -->
+      <section class="flex lg:flex-row flex-col mt-10 m-10 gap-10">
+        <div
+          class="bg-white lg:w-[32%] lg:h-[560px] w-full h-[410px] relative flex justify-center items-center rounded-[10px] shadow-[0px_1px_8px_1px_rgba(0,0,0,0.2)] lg:m-15 m-0"
+        >
+          <div class="z-0">
+            <div class="flex justify-between items-center lg:m-5 m-2">
+              <div class="flex items-center gap-2">
+                <div
+                  class="bg-orange-500 w-12 h-12 rounded-full border-6 border-orange-200 flex justify-center items-center"
+                >
+                  <img
+                    class="w-5 h-5 items-center"
+                    src="./image/inbox.png"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <b class="lg:text-[20px] text-[15px]">Inbox</b>
+                </div>
+              </div>
+
+              <div class="flex lg:gap-2 gap-1">
+                <p class="bg-gray-300 w-2 h-2 rounded-full"></p>
+                <p class="bg-gray-300 w-2 h-2 rounded-full"></p>
+                <p class="bg-gray-300 w-2 h-2 rounded-full"></p>
+              </div>
+            </div>
+            <div
+              class="bg-gray-300 lg:w-[100%] w-[100%] lg:h-[420px] h-[300px] rounded-[12px] mx-auto p-5"
+            >
+              <div
+                class="bg-white lg:w-[100%] lg:h-[80px] h-[50px] rounded-[12px]"
+              >
+                <div class="flex items-center gap-2 lg:p-3.5 p-2">
+                  <div
+                    class="bg-green-400 lg:w-12 lg:h-12 w-8 h-8 rounded-full flex justify-center items-center"
+                  >
+                    <img
+                      class="lg:w-6 lg:h-6 w-4 h-4"
+                      src="./image/speech-bubble.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <b class="lg:text-[15px] text-[12px]">New Message</b>
+                    <p class="lg:text-[15px] text-[12px]">
+                      Hey Alex, are you free now?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="bg-white lg:w-[100%] lg:h-[80px] h-[50px] rounded-[12px] mt-5"
+              >
+                <div class="flex items-center gap-2 lg:p-3.5 p-2">
+                  <div
+                    class="bg-red-500 lg:w-12 lg:h-12 w-8 h-8 rounded-full flex justify-center items-center"
+                  >
+                    <img
+                      class="lg:w-6 lg:h-6 w-4 h-4"
+                      src="./image/email.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <b class="lg:text-[15px] text-[12px]">New Message</b>
+                    <p class="lg:text-[15px] text-[12px]">
+                      Hey Alex, are you free now?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="bg-white lg:w-[100%] lg:h-[80px] h-[50px] rounded-[12px] mt-5"
+              >
+                <div class="flex items-center gap-2 lg:p-3.5 p-2">
+                  <div
+                    class="bg-blue-400 lg:w-12 lg:h-12 w-8 h-8 rounded-full flex justify-center items-center"
+                  >
+                    <img
+                      class="lg:w-6 lg:h-6 w-4 h-4"
+                      src="./image/messenger.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <b class="lg:text-[15px] text-[12px]">New Message</b>
+                    <p class="lg:text-[15px] text-[12px]">
+                      Hey Alex, are you free now?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="bg-white lg:w-[100%] lg:h-[80px] h-[50px] rounded-[12px] mt-5"
+              >
+                <div class="flex items-center gap-2 lg:p-3.5 p-2">
+                  <div
+                    class="bg-green-400 lg:w-12 lg:h-12 w-8 h-8 rounded-full flex justify-center items-center"
+                  >
+                    <img
+                      class="lg:w-6 lg:h-6 w-4 h-4"
+                      src="./image/speech-bubble.png"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <b class="lg:text-[15px] text-[12px]">New Message</b>
+                    <p class="lg:text-[15px] text-[12px]">
+                      Hey Alex, are you free now?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute lg:top-550 top-840 lg:left-25 left-0 z-10">
+          <img
+            class="w-16 h-16 rounded-full border-4 border-white"
+            src="./image/abigeal.jpg"
+            alt=""
+          />
+        </div>
+        <div class="absolute lg:top-600 top-880 lg:right-200 right-0 z-10">
+          <img class="w-16 h-16 rounded-full border-4 border-white" src="./image/temilade.jpg" alt="">
+        </div>
+        <div class="absolute lg:top-668 top-916 lg:right-270 right-50 z-10">
+          <img class="w-16 h-16 rounded-full border-4 border-white" src="./image/shalewa.jpg" alt="">
         </div>
         
-    
-    
-    
-    </div>
+
+        <div class="lg:mt-60 mt-0 lg:w-30%">
+          <h1 class="lg:text-[35px] text-[25px] text-center font-semibold">
+            Get direct orders from your customers
+          </h1>
+          <p class="text-center mt-10 flex-wrap">
+            Create custom landing pages with Rareblocks that converts more
+            <br />
+            visitors than any website. With lots of unique blocks easily build a
+            <br />
+            page. There are many variations of passages of available.
+          </p>
+          <div class="flex gap-8 justify-center mt-10">
+            <div class="flex items-center gap-2">
+              <p class="lg:text-[30px] text-[25px] font-semibold">4.3K+</p>
+              <div>
+                <p class="lg:text-[12px] text-[8px]">Website</p>
+                <p class="lg:text-[12px] text-[8px]">Powering</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <p class="lg:text-[30px] text-[25px] font-semibold">7M</p>
+              <div>
+                <p class="lg:text-[12px] text-[8px]">Chat in</p>
+                <p class="lg:text-[12px] text-[8px]">Last 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </body>
